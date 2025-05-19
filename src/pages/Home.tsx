@@ -1,7 +1,6 @@
 import {
   Menu,
   Github,
-  Linkedin,
   Mail,
   ChevronDown,
   ExternalLink,
@@ -373,20 +372,28 @@ function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
         name="name"
         placeholder="Name"
         required
+        value={formData.name}
+        onChange={handleChange}
         className="w-full px-4 py-3 border border-slate-300 rounded-lg"
       />
+
       <input
         type="email"
         name="email"
         placeholder="Email"
         required
+        value={formData.email}
+        onChange={handleChange}
         className="w-full px-4 py-3 border border-slate-300 rounded-lg"
       />
+
       <textarea
         name="message"
         placeholder="Your message"
         rows={4}
         required
+        value={formData.message}
+        onChange={handleChange}
         className="w-full px-4 py-3 border border-slate-300 rounded-lg"
       />
 
