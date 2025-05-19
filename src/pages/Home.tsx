@@ -94,7 +94,7 @@ function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
 
   const techStacks = {
     Frontend: ["React", "Tailwind CSS", "Vite", "Shadcn UI", "Vue", "Vanilla"],
-    Backend: ["Node.js", "Supabase", "Firebase", "GitHub API", "Laravel"],
+    Backend: ["Node.js", "Supabase", "Firebase", "GitHub API", "Laravel", "Express", "FastAPI"],
     DevOps: ["GitHub Actions", "Render", "Netlify", "Docker"],
     Database: ["PostgreSQL", "MySQL", "Firestore", "RLS Policies", "Supabase"],
   };
